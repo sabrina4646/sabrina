@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <form>
+            
+            <h1>FORM BELAJAR</h1>
+            <p>ini adalah website latihan pertama</p>
+            <br>
+            
+            <label >Nama:</label>
+            <input type="text" name="name" placeholder="nama">
+            <br>
+            
+            <label for="tanggal lahir">Tanggal Lahir: </label>
+            <input type="date" name="TANGGAL LAHIR" placeholder="tanggal lahir">
+            <br>
+
+            <label for="Jenis kelamin ">Jenis Kelamin: </label>
+            <input type="radio" id="laki-laki" name="laki-laki" value="laki-laki">
+            <label for="Jenis kelamin">Laki-laki</label>
+            <input type="radio" id="perempuan" name="perempuan" value="perempuan">
+            <label for="Jenis kelamin">Perempuan</label>
+            <br>
+            
+            <label for="pesan">Pesan    :</label>
+            <textarea rows="8" cols="64" placeholder="pesan"></textarea>
+            <br>
+            <input type="submit" value="SUBMIT">
+            <br>
+            </form>
+        </body>
+    </head>
+</html>
